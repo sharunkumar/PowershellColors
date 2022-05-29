@@ -12,12 +12,12 @@ Add-Type -AssemblyName C:\path\to\PowershellColors.dll
 $colors = New-Object PowershellColors.MappedColorPool[string] # [string] here specifies the mapping key type
 
 # for excluding certain colors (colors are in range 0-15)
-$colors = New-Object PowershellColors.MappedColorPool[string] -ArgumentList 0 # excludes the color black
+$colors = New-Object PowershellColors.MappedColorPool[string] -ArgumentList 0,1 # excludes the colors black and (dark) blue
 ```
 
 # Example
 
-![image](https://user-images.githubusercontent.com/715417/170884182-6129025c-be27-4ea1-9661-7188cf808369.png)
+![image](https://user-images.githubusercontent.com/715417/170884406-90260571-96e3-4b29-ab2e-993650b4b240.png)
 
 
 # Color list for reference
