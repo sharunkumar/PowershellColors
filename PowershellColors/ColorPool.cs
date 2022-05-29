@@ -2,7 +2,7 @@
 {
     public class ColorPool
     {
-        private List<uint> _colors;
+        private readonly List<uint> _colors;
         private int _index;
 
         public ColorPool()
@@ -20,11 +20,11 @@
             _colors = _colors.Except(excludedColors).ToList();
         }
 
-        public int Count() => _colors.Count();
+        public int Count() => _colors.Count;
 
         public uint GetNextColor()
         {
-            if (_index >= _colors.Count())
+            if (_index >= _colors.Count)
             {
                 _index = 0;
             }
