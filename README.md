@@ -18,3 +18,8 @@ $colors = New-Object PowershellColors.MappedColorPool[string] -ArgumentList 0 # 
 # Example
 
 ![image](https://user-images.githubusercontent.com/715417/170884182-6129025c-be27-4ea1-9661-7188cf808369.png)
+
+
+# Color list for reference
+
+![image](https://user-images.githubusercontent.com/715417/170884290-dada9b6c-1020-4cef-9ff7-697e83664a97.png)
